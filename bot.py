@@ -1,7 +1,11 @@
 # Work with Python 3.6
 import discord
 
-TOKEN = 'NjczMDQ5NzEyMDAxMDI0MDQw.XjU7WA.uuYirsse-B8Mgx9k31QuYBE-CDg'
+TOKEN = ''
+f = open("token.txt","r")
+if f.mode == "r":
+	TOKEN = f.read() + ''
+
 
 client = discord.Client()
 
