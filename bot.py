@@ -2,10 +2,6 @@
 import discord
 
 TOKEN = ''
-f = open("token.txt","r")
-if f.mode == "r":
-	TOKEN = f.read() + ''
-
 
 client = discord.Client()
 
