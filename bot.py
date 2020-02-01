@@ -10,8 +10,10 @@ async def on_message(message):
 	userMassage = ''
 	if message.author == client.user:
 		return
+
+	username = str(message.author)
 	
-	userMassage += str(message.author) + ' said: ' + message.content
+	userMassage += username[0:int(len(username)-5)] + ' said: ' + message.content
 	await message.channel.send(userMassage, tts = True, delete_after = 5.0);
 
 @client.event
