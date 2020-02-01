@@ -1,7 +1,7 @@
 # Work with Python 3.6
 import discord
 
-TOKEN = 'NjczMDQ5NzEyMDAxMDI0MDQw.XjUdQA.NE0k1JSKS7LdqQdDmhpxG9F6Pzs'
+TOKEN = 'NjczMDQ5NzEyMDAxMDI0MDQw.XjUeEg.557YoLxVmJSvIXHphSdHIIiOJ_w'
 
 client = discord.Client()
 
