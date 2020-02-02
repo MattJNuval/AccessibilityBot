@@ -1,0 +1,26 @@
+{
+  "name": "Team06",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattJNuval/Team06.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattJNuval/Team06/issues"
+  },
+  "homepage": "https://github.com/MattJNuval/Team06#readme",
+  "dependencies": {
+    "@google-cloud/speech": "^3.5.4",
+    "discord.js": "^11.5.1",
+    "node-opus": "^0.3.3",
+    "opus": "0.0.0"
+  }
+}
