@@ -30,7 +30,7 @@ node index.js
 ```
 Keep in mind: 
  * You must first create your own bot and obtain your own secret token (https://discordapp.com/developers/applications/)
- * Anthorizes your bot into your own server in the following website: https://discordapp.com/oauth2/authorize?client_id= <YOUR OWN CLIENT ID FROM DISCORD DEVELOPERS WEBSITE> &scope=bot
+ * Anthorizes your bot into your own server in the following website: https://discordapp.com/oauth2/authorize?client_id=YOUROWNCLIENTIDFROMDISCORDDEVELOPERSWEBSITE&scope=bot
 
 ## Contributors
 * Mathew Nuval | Project Lead
