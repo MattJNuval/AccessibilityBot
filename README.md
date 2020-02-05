@@ -19,12 +19,18 @@
 ### Git Clone
 To do a basic clone of the project execute:
 ```bash
-git clone https://github.com/MattJNuval/AndroidNoddingDetection.git
+git clone https://github.com/MattJNuval/AccessibilityBot.git
 ```
 in a terminal.
 
 ## Usage
-After opened in Android studio just press the play button in the located on top of Android Studio.
+In the terminal, insert the following command. 
+```bash
+node index.js
+```
+Keep in mind: 
+ * You must first create your own bot and obtain your own secret token (https://discordapp.com/developers/applications/)
+ * Anthorizes your bot into your own server in the following website: https://discordapp.com/oauth2/authorize?client_id= <YOUR OWN CLIENT ID FROM DISCORD DEVELOPERS WEBSITE> &scope=bot
 
 ## Contributors
 * Mathew Nuval | Project Lead
